@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php"
+         convertWarningsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertErrorsToExceptions="true"
+         backupStaticAttributes="false"
+         processIsolation="false"
+         stopOnFailure="false"
+         backupGlobals="false"
+         syntaxCheck="false"
+         colors="true">
+    <testsuites>
+        <testsuite name="Test Suite">
+            <directory>tests/</directory>
+            <file>src/Player.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
